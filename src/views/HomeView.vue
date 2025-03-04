@@ -1,9 +1,10 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <section class="container">
+      <img src="" alt="">
+    </section>
   </main>
 </template>
