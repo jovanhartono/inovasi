@@ -1,21 +1,44 @@
 @import "tailwindcss";
 
 @theme {
-    --default-font-family: 'Playfair Display';
+  --color-primary: #1d4762;
+  --default-font-family: "Roboto Flex";
 }
 
 @layer base {
-    * {
-        @apply border-gray-300;
-    }
+  * {
+    @apply border-slate-300;
+  }
 
-    html {
-        @apply flex flex-col bg-white;
-    }
+  html {
+    @apply flex flex-col bg-white antialiased;
+  }
+
+  p {
+    @apply text-slate-600 leading-relaxed;
+  }
+
+  h1 {
+    @apply text-7xl;
+  }
+
+  h2 {
+    @apply text-6xl;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply text-primary font-medium leading-[1.25] tracking-tight;
+  }
+
+  strong {
+    @apply font-medium;
+  }
 }
 
 @utility container {
-    max-width: 1024px;
-    margin-inline: auto;
-    padding-inline: 16px;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 16px;
 }
