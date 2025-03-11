@@ -118,7 +118,7 @@ const softwarePoints = [
           <span class="font-normal text-slate-500"> for Scalable and Secure Software </span>
         </h2>
         <p class="text-center text-balance">
-          menghadirkan solusi piranti lunak berkualitas untuk sektor komersial, industri,
+          Menghadirkan solusi piranti lunak berkualitas untuk sektor komersial, industri,
           manufaktur, dan distribusi. Didukung tenaga ahli berpengalaman, kami merancang sistem yang
           efektif, efisien, dan tepat guna guna mendukung operasional bisnis di era digital.
         </p>
